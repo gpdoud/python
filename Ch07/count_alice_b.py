@@ -1,6 +1,9 @@
 
 import sys
 
+# (index)     0             1       2         3          4
+# python count_alice_b.py Alice Alice.txt parrot.txt tyger.txt
+
 search_word = sys.argv[1]
 files = sys.argv[2:]
 

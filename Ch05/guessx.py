@@ -1,8 +1,14 @@
 # Guessing game
+import sys
+# pass the maximum number on the command line or 
+# prompt the user to enter it
+parms = sys.argv[1:]
+if len(parms) == 0:
+    max = int(input("Enter max integer: "))
+else:
+    max = int(parms[0])
 
 min = 1
-max = 250
-#max += 1
 
 while True :
     guess = (min + max) // 2

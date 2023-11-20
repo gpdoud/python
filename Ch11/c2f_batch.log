@@ -1,0 +1,10 @@
+INFO:root:100.0 celcius is 212.0 fahrenheit.
+INFO:root:37.0 celcius is 98.6 fahrenheit.
+INFO:root:0.0 celcius is 32.0 fahrenheit.
+INFO:root:-40.0 celcius is -40.0 fahrenheit.
+ERROR:root:ERROR!: a is not an number
+Traceback (most recent call last):
+  File "C:\repos\python\ch11\c2f_batch_safe.py", line 11, in <module>
+    c = float(sys.argv[1])
+        ^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'a'
